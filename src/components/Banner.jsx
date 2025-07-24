@@ -7,7 +7,7 @@ const Banner = () => {
         {/* Background Image */}
         <div className="absolute top-0 right-0 -z-10 w-full lg:w-3/5" data-aos="fade-left">
           <img
-            src="/img/banner-img.png"
+            src={`${import.meta.env.BASE_URL}img/banner-img.png`}
             alt="illustration of women"
             className="w-full h-auto"
           />

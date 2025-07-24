@@ -22,7 +22,7 @@ const Header = () => {
         <nav className="flex justify-between items-center py-5">
           {/* Logo */}
           <div className="w-14 h-14">
-            <img src="/img/z6808157182190_8d7932ca995c8142f41c2469a0cc1874-removebg-preview.png" alt="website logo" className="w-full h-full object-cover rounded-full" />
+            <img src={`${import.meta.env.BASE_URL}img/z6808157182190_8d7932ca995c8142f41c2469a0cc1874-removebg-preview.png`} alt="website logo" className="w-full h-full object-cover rounded-full" />
           </div>
 
           {/* Desktop Navigation */}

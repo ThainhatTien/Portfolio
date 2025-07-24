@@ -4,21 +4,21 @@ const Things = () => {
   const skills = [
     {
       id: 1,
-      image: "/img/things-item-1.png",
+      image: `${import.meta.env.BASE_URL}img/things-item-1.png`,
       title: "Frontend Development",
-      description: "Thành thạo ReactJS, AngularJS, HTML5, CSS3/SCSS, Bootstrap. Tạo ra giao diện người dùng hiện đại, responsive và tối ưu trải nghiệm."
+      description: "Thành thạo ReactJS, AngularJS, HTML, CSS, Bootstrap, TailwindCSS. Tạo ra giao diện người dùng hiện đại, responsive và tối ưu trải nghiệm."
     },
     {
       id: 2,
-      image: "/img/things-item-2.png",
+      image: `${import.meta.env.BASE_URL}img/things-item-2.png`,
       title: "Backend Development", 
-      description: "Chuyên sâu Java 11+, Spring Boot, RESTful API, JWT. Thiết kế kiến trúc nhiều tầng với SQL Server, MySQL, MongoDB."
+      description: "Chuyên sâu Java, Spring Boot, RESTful API, PHP, NodeJS. Thiết kế kiến trúc nhiều tầng với SQL Server, MySQL, MongoDB."
     },
     {
       id: 3,
-      image: "/img/things-item-3.png",
+      image: `${import.meta.env.BASE_URL}img/things-item-3.png`,
       title: "WordPress & DevOps",
-      description: "Phát triển theme/plugin WordPress tùy chỉnh (Elementor, Flatsome). Triển khai với Docker, CI/CD, Firebase Hosting."
+      description: "Phát triển theme/plugin WordPress tùy chỉnh (Elementor, Flatsome). Git, Github, Gitlab."
     }
   ]
 
@@ -27,10 +27,10 @@ const Things = () => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Decorative Elements */}
         <div className="absolute top-0 left-0 -translate-x-3/5 -z-10" data-aos="fade-right">
-          <img src="/img/things-dec-l.png" alt="illustration of leaf" />
+          <img src={`${import.meta.env.BASE_URL}img/things-dec-l.png`} alt="illustration of leaf" />
         </div>
         <div className="absolute bottom-[15%] right-0 translate-x-3/5 -z-10" data-aos="fade-left">
-          <img src="/img/things-dec-r.png" alt="illustration of leaf" />
+          <img src={`${import.meta.env.BASE_URL}img/things-dec-r.png`} alt="illustration of leaf" />
         </div>
 
         {/* Section Title */}

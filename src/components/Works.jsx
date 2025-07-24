@@ -81,10 +81,10 @@ const Works = () => {
       <div className="max-w-6xl mx-auto px-4">
         {/* Decorative Elements */}
         <div className="absolute top-0 left-0 -translate-x-3/5 -z-10" data-aos="fade-right">
-          <img src="/img/work-dec.png" alt="illustration of leaf" />
+          <img src={`${import.meta.env.BASE_URL}img/work-dec.png`} alt="illustration of leaf" />
         </div>
         <div className="absolute bottom-[15%] right-0 translate-x-3/5 -z-10" data-aos="fade-left">
-          <img src="/img/work-dec.png" alt="illustration of leaf" />
+          <img src={`${import.meta.env.BASE_URL}img/work-dec.png`} alt="illustration of leaf" />
         </div>
 
         {/* Section Title */}

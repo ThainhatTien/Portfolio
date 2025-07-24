@@ -56,13 +56,13 @@ const Experience = () => {
       title: "Web Developer",
       company: "Puramu",
       period: "02/2025 - Hiện tại",
-      description: "Thiết kế & phát triển nhiều website thương mại điện tử/giới thiệu dịch vụ trên WordPress. Xây dựng plugin tùy chỉnh (tích hợp thanh toán, API bên thứ ba, dashboard quản trị). Tối ưu SEO & hiệu suất."
+      description: "Thiết kế & phát triển nhiều website thương mại điện tử/giới thiệu dịch vụ trên WordPress. Xây dựng plugin tùy chỉnh (tích hợp khuyến mãi, API bên thứ ba, dashboard quản trị). Tối ưu SEO & hiệu suất."
     },
     {
       id: 2,
       title: "Web Developer",
       company: "Bizibusiness",
-      period: "10/2024- 12/2014",
+      period: "10/2024- 12/2024",
       description: "Tham gia dự án nội bộ, sử dụng plugin Beaver Builder để tạo landing page."
     }
   ]
@@ -127,6 +127,25 @@ const Experience = () => {
                 <p className="text-gray-600 leading-relaxed">{exp.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Education Section */}
+        <div className="mb-20">
+          <h2 className="text-center text-custom-gray text-3xl mb-12">
+            Học vấn
+          </h2>
+          <div className="bg-white rounded-lg p-6 shadow-lg max-w-2xl mx-auto" data-aos="fade-up">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+              <div>
+                <h3 className="text-xl font-medium text-custom-gray mb-1">Cao đẳng FPT Polytechnic</h3>
+                <p className="text-custom-green font-medium">Công nghệ thông tin</p>
+              </div>
+              <span className="text-sm text-gray-500 mt-2 md:mt-0">08/2022 - 12/2024</span>
+            </div>
+            <p className="text-gray-600 leading-relaxed">
+              Tốt nghiệp loại <strong>Giỏi</strong> với GPA <strong>3.16</strong>.
+            </p>
           </div>
         </div>
 
