@@ -105,7 +105,7 @@ const Works = () => {
                     src={work.image}
                     alt={work.title}
                     className="w-20 h-20 mx-auto mt-6 object-contain bg-white"
-                    onError={e => { e.target.onerror = null; e.target.src = '/img/logo.svg' }}
+                    onError={e => { e.target.onerror = null; e.target.src = `${import.meta.env.BASE_URL}img/logo.svg` }}
                   />
                   <div className="p-6 text-center">
                     <h3 className="text-lg font-semibold mb-2 text-custom-gray group-hover:text-custom-green transition-colors duration-300">
