@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Mulish', sans-serif;
+  }
+
+  #root {
+    overflow-x: clip;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block px-10 py-3 bg-gray-600 text-white rounded-full hover:bg-green-400 transition-all duration-300 ease-in-out cursor-pointer;
+  }
+  
+  .btn-secondary {
+    @apply inline-block px-10 py-3 bg-green-500 text-white rounded-full hover:bg-green-400 transition-all duration-300 ease-in-out cursor-pointer;
+  }
+}
+
+:root {
+  --green: #54b192;
+  --green-l: #a4cec0;
+  --gray: #3f3d56;
+} 
